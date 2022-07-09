@@ -1,14 +1,14 @@
-@import url(http://fonts.googleapis.com/css?family=Merriweather:300,300italic,400,400italic,700,700italic);
-@import url(http://fonts.googleapis.com/css?family=Montserrat);
+@import url(http://fonts.googleapis.com/css?family=Mingzat:300,300italic,400,400italic,700,700italic);
+@import url(http://fonts.googleapis.com/css?family=Prata);
 
-body { padding-top: 20px; padding-bottom: 40px; font-family: 'Merriweather', Georgia, Times; font-size: 16px; }
+body { padding-top: 20px; padding-bottom: 40px; font-family: 'Prata', 'Mingzat', Times; font-size: 16px; }
 
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { font-family: 'Merriweather', Georgia, Times; font-weight: 700;}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { font-family: ''Prata', 'Mingzat', Times; font-weight: 700;}
 
 blockquote p { font-size: 16px; line-height: 1.6em; }
 
 /* Masthead */
-.header, .footer, .header h3 { font-family: 'Montserrat', Helvetica, sans-serif; text-transform: uppercase; font-weight: normal; }
+.header, .footer, .header h3 { font-family: 'Prata', 'Mingzat', sans-serif; text-transform: uppercase; font-weight: normal; }
 
 /* Navigation */
 h3.text-muted a {text-decoration: none; color: #999999; }
@@ -49,7 +49,7 @@ ul.swatch li:hover { height: 75px; width: 75px; vertical-align: middle; text-ind
 ul.swatch li:last-child { webkit-border-top-right-radius: 9px; -webkit-border-bottom-right-radius: 9px; -moz-border-radius-topright: 9px; -moz-border-radius-bottomright: 9px; border-top-right-radius: 9px; border-bottom-right-radius: 9px; }
 ul.swatch li:first-child { webkit-border-top-left-radius: 9px; -webkit-border-bottom-left-radius: 9px; -moz-border-radius-topleft: 9px; -moz-border-radius-bottomleft: 9px; border-top-left-radius: 9px; border-bottom-left-radius: 9px; }
 */
-.swatch-log p { font-size: 14px; clear: left; margin-top: 10px; font-family: 'Montserrat', Helvetica, sans-serif; text-transform: uppercase; }
+.swatch-log p { font-size: 14px; clear: left; margin-top: 10px; font-family: 'Prata', 'Mingzat', sans-serif; text-transform: uppercase; }
 .clear { clear: both; height: 20px; }
 
 /* CV */
@@ -61,7 +61,7 @@ ul.swatch li:first-child { webkit-border-top-left-radius: 9px; -webkit-border-bo
 .notes, .contact, .about, .cv, .error, .swatches { margin-bottom: 30px; }
 
 /* Contact */
-iframe {font-family: 'Merriweather', Georgia, Times; font-size: 16px;}
+iframe {font-family: 'Prata', 'Mingzat', Times; font-size: 16px;}
 
 /* About */
 .about ul.list-unstyled li { line-height: 30px; text-indent: -30px; margin-left: 30px;}
