@@ -89,6 +89,7 @@ GEM
       parslet (~> 1.5.0)
     tzinfo (1.1.0)
       thread_safe (~> 0.1)
+    webrick (1.7.0)
     yajl-ruby (1.1.0)
 
 PLATFORMS
@@ -96,3 +97,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  webrick
+
+BUNDLED WITH
+   2.3.14
