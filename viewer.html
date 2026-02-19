@@ -21,20 +21,15 @@ Adobe CMap resources are covered by their own copyright but the same license:
 See https://github.com/adobe-type-tools/cmap-resources
 -->
 <html dir="ltr" mozdisallowselectionprint>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta name="google" content="notranslate" />
-    <title>PDF.js viewer</title>
-
-<!-- This snippet is used in production (included from viewer.html) -->
-<link rel="resource" type="application/l10n" href="locale/locale.json" />
-<script src="https://jhmi.co1.qualtrics.com/ControlPanel/File.php?F=F_PGONHlo7CDPwi1s" type="module"></script>
-
-    <link rel="stylesheet" href="https://jhmi.co1.qualtrics.com/ControlPanel/File.php?F=F_iJyxoyAlWEWBAn6" />
-
-  <script src="viewer.mjs" type="module"></script>
-  </head>
+  <head> <meta charset="utf-8" /> <meta name="viewport" content="width=device-width, initial-scale=1" /> <title>PDF.js viewer</title> 
+  <!-- Your Library viewer.css --> 
+   <link rel="stylesheet" href="https://jhmi.co1.qualtrics.com/ControlPanel/File.php?F=F_iJyxoyAlWEWBAn6" /> 
+   <!-- Classic (non‑module) pdf.js from your Library --> 
+    <script src="https://jhmi.co1.qualtrics.com/ControlPanel/File.php?F=F_PGONHlo7CDPwi1s"></script> <script> 
+    // Set the matching worker from your Library // Replace F_otbYCza04qqWHG1 with your worker’s File ID if different 
+    if (window.pdfjsLib) { pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://jhmi.co1.qualtrics.com/ControlPanel/File.php?F=F_otbYCza04qqWHG1'; } else { console.error('pdfjsLib not loaded'); } </script> 
+    <style> /* Hide stock chrome (keep only the pages area) */ #toolbarContainer, #secondaryToolbar, #sidebarContainer, #viewsManager, #loadingBar { display: none !important; } html, body { margin: 0; height: 100%; background: #fff; } 
+  #mainContainer, #viewerContainer { position: fixed; inset: 0; overflow: auto; -webkit-overflow-scrolling: touch; background: #fff; } </style> </head>
 
   <body tabindex="0">
     <div id="outerContainer">
