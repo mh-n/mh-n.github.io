@@ -1,10 +1,12 @@
 ---
 layout: default
-title: "Welcome to Meesheen Learning"
-date: 2026-05-02
+title: "Hi!"
+date: 2026-04-30
 category: meesheen_learning
 ---
 
-Welcome to the new Meesheen Learning blog! 
+Hi! This, tentatively, is a blog. Hope you are having a great day. 
 
-This is a sample post. You can find this file in the `_posts` directory. To add more posts to this section, simply create a new markdown file in the `_posts` folder and make sure to include `category: meesheen_learning` in the YAML front matter at the top.
+
+Michelle
+
